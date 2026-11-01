@@ -1,0 +1,40 @@
+{
+  "name": "squeek-tales",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run compile:contract && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "compile:contract": "node scripts/compile-contract.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node scripts/validate-browser.mjs",
+    "test:wallet": "node scripts/validate-wallet.mjs",
+    "check:integration": "node scripts/check-integration.mjs"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "4.4.0",
+    "@fontsource/dm-sans": "5.3.0",
+    "@fontsource/nunito": "5.3.0",
+    "@tanstack/react-query": "5.105.1",
+    "lucide-react": "1.66.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "viem": "2.57.14",
+    "wagmi": "3.7.9"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "ganache": "7.9.2",
+    "playwright": "1.64.1",
+    "solc": "0.8.38",
+    "typescript": "7.0.2",
+    "vite": "8.3.5"
+  }
+}

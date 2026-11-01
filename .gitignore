@@ -1,0 +1,15 @@
+# Dependency and build-tool caches are never part of the submission, at any depth.
+**/node_modules/
+**/.vite/
+**/.cache/
+**/.npm/
+**/*.tsbuildinfo
+test/scratch/
+.playwright-mcp/
+
+# Required static export and evidence are intentionally delivered.
+# Explicit path budgets and exclusions are documented in BUNDLE.md.
+!dist/
+!dist/**
+!artifacts/
+!artifacts/**

@@ -1,0 +1,34 @@
+{
+  "testedAt": "2026-11-01T12:05:36.520Z",
+  "scope": "Ephemeral local EVM with chain ID 11155111, synthetic API/config and test-only injected wallet. No Ethereum Sepolia deployment or signing was performed.",
+  "results": [
+    {
+      "name": "EIP-6963 discovery names the wallet and hides generic injected",
+      "passed": true
+    },
+    {
+      "name": "connection rejection is recoverable",
+      "passed": true
+    },
+    {
+      "name": "wrong-network voting is disabled; unknown chain adds Sepolia and changes network",
+      "passed": true
+    },
+    {
+      "name": "transaction rejection returns an inline error without recording a vote",
+      "passed": true
+    },
+    {
+      "name": "real local EVM transaction reaches confirmed UI and cannot be duplicated",
+      "passed": true
+    },
+    {
+      "name": "account changes clear duplicate-vote state and leaderboard reads actual contract state",
+      "passed": true
+    },
+    {
+      "name": "transaction hash and confirmed status survive a reload",
+      "passed": true
+    }
+  ]
+}

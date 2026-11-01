@@ -1,0 +1,12 @@
+{
+  "requiredPathsValid": 20,
+  "relativeAssetsValid": 5,
+  "shareImage": "1200 × 630 PNG",
+  "abiAndBytecodeMatch": true,
+  "configMatchesSource": true,
+  "deliveredFiles": 82,
+  "deliveredBytes": 2090912,
+  "productionExportBytes": 1075101,
+  "budgetBytes": 8388608,
+  "excludes": "Provided inputs, scratch checks, browser scratch outputs, dependency installations, Git metadata"
+}

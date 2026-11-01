@@ -1,0 +1,8 @@
+{
+  "chainId": 11155111,
+  "apiUrl": "https://api.squeekchain.com/v1/core",
+  "rpcUrl": "https://ethereum-sepolia-rpc.publicnode.com",
+  "votingAddress": null,
+  "votingDeploymentBlock": null,
+  "expectedCore": null
+}

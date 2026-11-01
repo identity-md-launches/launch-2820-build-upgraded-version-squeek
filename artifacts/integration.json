@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-11-01T12:06:59.535Z",
+  "apiUrl": "https://api.squeekchain.com/v1/core",
+  "chainId": 11155111,
+  "api": {
+    "status": 200,
+    "schemaVersion": 1,
+    "installationId": "stream-game-sepolia-test-20261025-01",
+    "coreAddress": "0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44",
+    "safeThroughBlock": "12040887",
+    "settledThroughRound": "853",
+    "genesisTimestamp": "1793022600",
+    "roundDuration": "600",
+    "latestComputedSettlement": {
+      "roundId": "853",
+      "work": "0",
+      "branch": 0,
+      "transactionHash": "0x9542dac88e438d37b5d0310ecb4a622a2895382267cb441f7aeeb61ea54b9cab",
+      "blockNumber": "12040868"
+    }
+  },
+  "rpc": {
+    "url": "https://ethereum-sepolia-rpc.publicnode.com",
+    "verified": true,
+    "chainId": 11155111,
+    "matchedCore": true,
+    "matchedSafeBlockFrontier": true,
+    "matchedRoundClock": true,
+    "deployedCodePresent": true,
+    "latestRoundPage": {
+      "roundId": "853",
+      "certifiedThroughRound": "853",
+      "computedWork": "0",
+      "branch": 0,
+      "matchesApi": true
+    }
+  },
+  "deployment": {
+    "votingAddress": null,
+    "transactionHash": null,
+    "status": "not deployed",
+    "limitation": "No deployer wallet or signing credential was supplied. The browser-wallet deployment path and compiled artifacts are included."
+  }
+}

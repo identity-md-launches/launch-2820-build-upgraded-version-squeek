@@ -1,0 +1,57 @@
+{
+  "testedAt": "2026-11-01T12:07:23.597Z",
+  "results": [
+    {
+      "name": "chromium: live production export and subpath assets",
+      "passed": true,
+      "detail": "Relative assets and local fonts loaded; no script errors or missing local files."
+    },
+    {
+      "name": "chromium: 390px first-screen action",
+      "passed": true,
+      "detail": "Primary button bottom 781px in an 844px viewport."
+    },
+    {
+      "name": "chromium: branch preview, keyboard dialog dismissal and focus return",
+      "passed": true
+    },
+    {
+      "name": "chromium: wallet picker and no-extension failure",
+      "passed": true
+    },
+    {
+      "name": "chromium: local preview progresses, persists and resets",
+      "passed": true
+    },
+    {
+      "name": "chromium: chapter history and settlement link",
+      "passed": true
+    },
+    {
+      "name": "chromium: responsive widths and enlarged text",
+      "passed": true,
+      "detail": "320, 390, 700, 960, 1440px; 200% CSS text enlargement. Native browser zoom not tested."
+    },
+    {
+      "name": "chromium: automated accessibility of default page",
+      "passed": true,
+      "detail": "No WCAG A/AA violations reported by axe in this state; not a complete accessibility certification."
+    },
+    {
+      "name": "chromium: unavailable feed, recovery, and genuinely empty frontier",
+      "passed": true,
+      "detail": "Synthetic unavailable and empty-frontier responses used only in this test."
+    },
+    {
+      "name": "chromium: phone wallet links and marks",
+      "passed": true,
+      "detail": "All four app links rendered; external app handoff and passkey signing not performed."
+    },
+    {
+      "name": "webkit: engine launch",
+      "passed": false,
+      "limitation": true,
+      "detail": "WebKit could not launch because a required browser runtime dependency was unavailable."
+    }
+  ]
+}
